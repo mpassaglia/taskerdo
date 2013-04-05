@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		149967AD170F9284003C499C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 149967AC170F9284003C499C /* UIKit.framework */; };
+		149967AF170F9284003C499C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 149967AE170F9284003C499C /* Foundation.framework */; };
+		149967B1170F9284003C499C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 149967B0170F9284003C499C /* CoreGraphics.framework */; };
+		149967B7170F9285003C499C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 149967B5170F9285003C499C /* InfoPlist.strings */; };
+		149967B9170F9285003C499C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 149967B8170F9285003C499C /* main.m */; };
+		149967BD170F9285003C499C /* TaskerDoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 149967BC170F9285003C499C /* TaskerDoAppDelegate.m */; };
+		149967BF170F9285003C499C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 149967BE170F9285003C499C /* Default.png */; };
+		149967C1170F9285003C499C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 149967C0170F9285003C499C /* Default@2x.png */; };
+		149967C3170F9285003C499C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 149967C2170F9285003C499C /* Default-568h@2x.png */; };
+		149967C6170F9285003C499C /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 149967C4170F9285003C499C /* MainStoryboard.storyboard */; };
+		149967C9170F9285003C499C /* TaskerDoMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 149967C8170F9285003C499C /* TaskerDoMasterViewController.m */; };
+		149967CC170F9285003C499C /* TaskerDoDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 149967CB170F9285003C499C /* TaskerDoDetailViewController.m */; };
+		149967D4170F9285003C499C /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 149967D3170F9285003C499C /* SenTestingKit.framework */; };
+		149967D5170F9285003C499C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 149967AC170F9284003C499C /* UIKit.framework */; };
+		149967D6170F9285003C499C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 149967AE170F9284003C499C /* Foundation.framework */; };
+		149967DE170F9285003C499C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 149967DC170F9285003C499C /* InfoPlist.strings */; };
+		149967E1170F9285003C499C /* TaskerDoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 149967E0170F9285003C499C /* TaskerDoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		149967D7170F9285003C499C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 149967A1170F9284003C499C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 149967A8170F9284003C499C;
+			remoteInfo = TaskerDo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		149967A9170F9284003C499C /* TaskerDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaskerDo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		149967AC170F9284003C499C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		149967AE170F9284003C499C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		149967B0170F9284003C499C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		149967B4170F9285003C499C /* TaskerDo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TaskerDo-Info.plist"; sourceTree = "<group>"; };
+		149967B6170F9285003C499C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		149967B8170F9285003C499C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		149967BA170F9285003C499C /* TaskerDo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TaskerDo-Prefix.pch"; sourceTree = "<group>"; };
+		149967BB170F9285003C499C /* TaskerDoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TaskerDoAppDelegate.h; sourceTree = "<group>"; };
+		149967BC170F9285003C499C /* TaskerDoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TaskerDoAppDelegate.m; sourceTree = "<group>"; };
+		149967BE170F9285003C499C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		149967C0170F9285003C499C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		149967C2170F9285003C499C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		149967C5170F9285003C499C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		149967C7170F9285003C499C /* TaskerDoMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TaskerDoMasterViewController.h; sourceTree = "<group>"; };
+		149967C8170F9285003C499C /* TaskerDoMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TaskerDoMasterViewController.m; sourceTree = "<group>"; };
+		149967CA170F9285003C499C /* TaskerDoDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TaskerDoDetailViewController.h; sourceTree = "<group>"; };
+		149967CB170F9285003C499C /* TaskerDoDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TaskerDoDetailViewController.m; sourceTree = "<group>"; };
+		149967D2170F9285003C499C /* TaskerDoTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaskerDoTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		149967D3170F9285003C499C /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		149967DB170F9285003C499C /* TaskerDoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TaskerDoTests-Info.plist"; sourceTree = "<group>"; };
+		149967DD170F9285003C499C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		149967DF170F9285003C499C /* TaskerDoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TaskerDoTests.h; sourceTree = "<group>"; };
+		149967E0170F9285003C499C /* TaskerDoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TaskerDoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		149967A6170F9284003C499C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				149967AD170F9284003C499C /* UIKit.framework in Frameworks */,
+				149967AF170F9284003C499C /* Foundation.framework in Frameworks */,
+				149967B1170F9284003C499C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		149967CE170F9285003C499C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				149967D4170F9285003C499C /* SenTestingKit.framework in Frameworks */,
+				149967D5170F9285003C499C /* UIKit.framework in Frameworks */,
+				149967D6170F9285003C499C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		149967A0170F9284003C499C = {
+			isa = PBXGroup;
+			children = (
+				149967B2170F9285003C499C /* TaskerDo */,
+				149967D9170F9285003C499C /* TaskerDoTests */,
+				149967AB170F9284003C499C /* Frameworks */,
+				149967AA170F9284003C499C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		149967AA170F9284003C499C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				149967A9170F9284003C499C /* TaskerDo.app */,
+				149967D2170F9285003C499C /* TaskerDoTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		149967AB170F9284003C499C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				149967AC170F9284003C499C /* UIKit.framework */,
+				149967AE170F9284003C499C /* Foundation.framework */,
+				149967B0170F9284003C499C /* CoreGraphics.framework */,
+				149967D3170F9285003C499C /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		149967B2170F9285003C499C /* TaskerDo */ = {
+			isa = PBXGroup;
+			children = (
+				149967BB170F9285003C499C /* TaskerDoAppDelegate.h */,
+				149967BC170F9285003C499C /* TaskerDoAppDelegate.m */,
+				149967C4170F9285003C499C /* MainStoryboard.storyboard */,
+				149967C7170F9285003C499C /* TaskerDoMasterViewController.h */,
+				149967C8170F9285003C499C /* TaskerDoMasterViewController.m */,
+				149967CA170F9285003C499C /* TaskerDoDetailViewController.h */,
+				149967CB170F9285003C499C /* TaskerDoDetailViewController.m */,
+				149967B3170F9285003C499C /* Supporting Files */,
+			);
+			path = TaskerDo;
+			sourceTree = "<group>";
+		};
+		149967B3170F9285003C499C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				149967B4170F9285003C499C /* TaskerDo-Info.plist */,
+				149967B5170F9285003C499C /* InfoPlist.strings */,
+				149967B8170F9285003C499C /* main.m */,
+				149967BA170F9285003C499C /* TaskerDo-Prefix.pch */,
+				149967BE170F9285003C499C /* Default.png */,
+				149967C0170F9285003C499C /* Default@2x.png */,
+				149967C2170F9285003C499C /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		149967D9170F9285003C499C /* TaskerDoTests */ = {
+			isa = PBXGroup;
+			children = (
+				149967DF170F9285003C499C /* TaskerDoTests.h */,
+				149967E0170F9285003C499C /* TaskerDoTests.m */,
+				149967DA170F9285003C499C /* Supporting Files */,
+			);
+			path = TaskerDoTests;
+			sourceTree = "<group>";
+		};
+		149967DA170F9285003C499C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				149967DB170F9285003C499C /* TaskerDoTests-Info.plist */,
+				149967DC170F9285003C499C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		149967A8170F9284003C499C /* TaskerDo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 149967E4170F9285003C499C /* Build configuration list for PBXNativeTarget "TaskerDo" */;
+			buildPhases = (
+				149967A5170F9284003C499C /* Sources */,
+				149967A6170F9284003C499C /* Frameworks */,
+				149967A7170F9284003C499C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TaskerDo;
+			productName = TaskerDo;
+			productReference = 149967A9170F9284003C499C /* TaskerDo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		149967D1170F9285003C499C /* TaskerDoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 149967E7170F9286003C499C /* Build configuration list for PBXNativeTarget "TaskerDoTests" */;
+			buildPhases = (
+				149967CD170F9285003C499C /* Sources */,
+				149967CE170F9285003C499C /* Frameworks */,
+				149967CF170F9285003C499C /* Resources */,
+				149967D0170F9285003C499C /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				149967D8170F9285003C499C /* PBXTargetDependency */,
+			);
+			name = TaskerDoTests;
+			productName = TaskerDoTests;
+			productReference = 149967D2170F9285003C499C /* TaskerDoTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		149967A1170F9284003C499C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TaskerDo;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = michaelp.;
+			};
+			buildConfigurationList = 149967A4170F9284003C499C /* Build configuration list for PBXProject "TaskerDo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 149967A0170F9284003C499C;
+			productRefGroup = 149967AA170F9284003C499C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				149967A8170F9284003C499C /* TaskerDo */,
+				149967D1170F9285003C499C /* TaskerDoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		149967A7170F9284003C499C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				149967B7170F9285003C499C /* InfoPlist.strings in Resources */,
+				149967BF170F9285003C499C /* Default.png in Resources */,
+				149967C1170F9285003C499C /* Default@2x.png in Resources */,
+				149967C3170F9285003C499C /* Default-568h@2x.png in Resources */,
+				149967C6170F9285003C499C /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		149967CF170F9285003C499C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				149967DE170F9285003C499C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		149967D0170F9285003C499C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		149967A5170F9284003C499C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				149967B9170F9285003C499C /* main.m in Sources */,
+				149967BD170F9285003C499C /* TaskerDoAppDelegate.m in Sources */,
+				149967C9170F9285003C499C /* TaskerDoMasterViewController.m in Sources */,
+				149967CC170F9285003C499C /* TaskerDoDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		149967CD170F9285003C499C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				149967E1170F9285003C499C /* TaskerDoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		149967D8170F9285003C499C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 149967A8170F9284003C499C /* TaskerDo */;
+			targetProxy = 149967D7170F9285003C499C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		149967B5170F9285003C499C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				149967B6170F9285003C499C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		149967C4170F9285003C499C /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				149967C5170F9285003C499C /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		149967DC170F9285003C499C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				149967DD170F9285003C499C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		149967E2170F9285003C499C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		149967E3170F9285003C499C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		149967E5170F9285003C499C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TaskerDo/TaskerDo-Prefix.pch";
+				INFOPLIST_FILE = "TaskerDo/TaskerDo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		149967E6170F9285003C499C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TaskerDo/TaskerDo-Prefix.pch";
+				INFOPLIST_FILE = "TaskerDo/TaskerDo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		149967E8170F9286003C499C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TaskerDo.app/TaskerDo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TaskerDo/TaskerDo-Prefix.pch";
+				INFOPLIST_FILE = "TaskerDoTests/TaskerDoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		149967E9170F9286003C499C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TaskerDo.app/TaskerDo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TaskerDo/TaskerDo-Prefix.pch";
+				INFOPLIST_FILE = "TaskerDoTests/TaskerDoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		149967A4170F9284003C499C /* Build configuration list for PBXProject "TaskerDo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				149967E2170F9285003C499C /* Debug */,
+				149967E3170F9285003C499C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		149967E4170F9285003C499C /* Build configuration list for PBXNativeTarget "TaskerDo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				149967E5170F9285003C499C /* Debug */,
+				149967E6170F9285003C499C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		149967E7170F9286003C499C /* Build configuration list for PBXNativeTarget "TaskerDoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				149967E8170F9286003C499C /* Debug */,
+				149967E9170F9286003C499C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 149967A1170F9284003C499C /* Project object */;
+}
